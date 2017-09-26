@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'^nosotros/$', TemplateView.as_view(template_name='nosotros.html'), name='nosotros'),
     url(r'^productos/$', TemplateView.as_view(template_name='productos.html'), name='productos'),
     url(r'^contacto/$', TemplateView.as_view(template_name='contacto.html'), name='contacto'),
+    url(r'^$', TemplateView.as_view(template_name='home.html'), name='home'),
 ]
